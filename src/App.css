@@ -1,0 +1,18 @@
+.section {
+    min-height: 100vh;
+    background: linear-gradient(black, darkblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar {
+    width: 200px;
+    border-radius: 100px;
+}
+.social-media {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
