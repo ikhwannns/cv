@@ -1,0 +1,18 @@
+.card {
+    transition: 0.8s;
+}
+.card:hover {
+    transform: rotate(30deg);
+}
+.merah {
+    border-left: red 5px;
+}
+.hijau {
+    border-left: green 5px;
+}
+.kuning {
+    border-left: yellow 5px;
+}
+.biru {
+    border-left: cyan 5px;
+}

@@ -1,6 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.intro {
+    background:url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80)
+}
 .section {
+    /* vertical height */
     min-height: 100vh;
-    background: linear-gradient(black, darkblue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,4 +20,13 @@
     margin-left: 10px;
     margin-right: 10px;
     transition: 0.5s;
+}
+.social-media:hover {
+    transform: scale(1.2);
+}
+.gambarku {
+    transition: 0.5s;
+}
+.gambarku:hover {
+    transform: scale(1.1);
 }
